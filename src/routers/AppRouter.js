@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import { JournalScreen } from "../components/journal/JournalScreen";
 import { AuthRouter } from "./AuthRouter";
-import { firebase } from '../firebase/firebase-config';
+import { firebase } from '../firebase-firestore/firebase-config';
 import { useDispatch } from 'react-redux';
 import { login } from "../actions/auth";
 import { startLoadingNotes } from "../actions/notes";

@@ -1,5 +1,5 @@
 import { types } from "../types/types";
-import { db } from "../firebase/firebase-config";
+import { db } from "../firebase-firestore/firebase-config";
 import { loadNotes } from '../helpers/loadNotes';
 import Swal from "sweetalert2";
 import { fileUpload } from "../helpers/fileUpload";
